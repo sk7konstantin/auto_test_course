@@ -27,8 +27,8 @@ class TestAuth:
         print('-----start_auth-----')
         try:
             browser.find_element(By.ID, 'ember33').click()
-            browser.find_element(By.CSS_SELECTOR, 'input#id_login_email').send_keys('sk7konstantin@yandex.ru')
-            browser.find_element(By.CSS_SELECTOR, 'input#id_login_password').send_keys('sk7stolyarov')
+            browser.find_element(By.CSS_SELECTOR, 'input#id_login_email').send_keys('faken@mail.ru')
+            browser.find_element(By.CSS_SELECTOR, 'input#id_login_password').send_keys('s232342')
             browser.find_element(By.CSS_SELECTOR, '.sign-form__btn.button_with-loader ').click()
         except Exception:
             pass
